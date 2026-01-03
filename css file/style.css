@@ -1,0 +1,15 @@
+.header{
+    height: 600px;
+    background-image: url('../image/sultan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.daily{
+    color: aqua;
+    text-align: center;
+}
+.para{
+    color: grey;
+    width: 400px;
+    margin: 200px 300px;
+}
