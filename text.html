@@ -5,18 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>use of text related tags</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css file/styles.css">
     <style>
         .none h2{
             color: aqua;
         }
+        textarea{
+            background-color: grey;
+            color: white;
+        }
+        .item-one{
+            color: aliceblue;
+            background-color: grey;
+            width: 600px;
+            border: 10px solid peru;
+            padding: 20px 40px;
+            text-align: center;
+            border-radius: 20px  5px;
+
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div class="text-one">
 
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
         <h1 style="visibility: hidden;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus ullam delectus id!</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam?</h1>
+        <h1>Lorem ipsum dolor sit <span class="first-span-tag">amet consectetur</span> adipisicing elit. Numquam?</h1>
 
     </div>
     <div class="none">
@@ -68,6 +83,12 @@
     <div>
         <h1>back to <a href="index.html">home page</a></h1>
     </div>
+
+    <div class="item-one">
+        <h1>Lorem ipsum <span style="color: palevioletred;">dolor</span> sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea commodi labore perferendis laborum, minima accusantium, repellat quia vel earum laboriosam ut nesciunt, ipsam aspernatur unde eius quos et. Officiis, magnam.</p>
+    </div>
+    
 
 </body>
 </html>
